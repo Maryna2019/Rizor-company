@@ -1,0 +1,249 @@
+body {
+    background: url(../img/main-background.png) 0 30px  no-repeat;
+    margin: 0;
+    header {
+      align-items: center;
+      display: flex;
+      height: 100px;
+      justify-content: space-between;
+      max-width: 1170px;
+      margin: 0 auto;
+      .header__nav {
+          .header__nav__wrapper {
+              display: flex;
+              list-style-type: none;
+              .header__nav__items {
+                  padding-left: 76px;
+                  .header__nav__link {
+                      color: #000;
+                      font: 14px 'Roboto', sans-serif;
+                      text-decoration: none;
+                  }
+              }
+          }       
+            
+        }
+    }
+    #first-section {
+        height: 750px;
+        position: relative;
+        .first-section__description {
+            max-width: 1170px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            .first-section__description__title {
+                font: 80px 'Rubik Mono One', sans-serif;
+                width: 670px;
+                z-index: 1;
+            }
+            .first-section__description__subtitle {
+                font: bold 20px 'Roboto', sans-serif;
+                width: 340px;
+            }
+        }
+        .first-section__media {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 56%;
+            .first-section__media__button-play {
+                background: url(../img/play.png) right center no-repeat;
+                height: 84px;
+                position: absolute;
+                left: -42px;
+                top: 45px;
+                width: 77px;
+                z-index: 1;
+                .first-section__media__button-play-text {
+                    position: relative;
+                    left: -55px;
+                    top: 12px;
+                    transform: rotate(270deg);
+                }
+            }
+            .first-section__media__video {
+                width: 100%;
+            }
+        }
+    }
+    #benefits-section {
+        display: flex;
+        .benefits-section__media {
+            position: relative;
+            .benefits-section__media__button-play {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -31px;
+                margin-top: -40px;
+            }
+        }
+        .benefits-section__design {
+            padding-left: 25px;
+            .benefits-section__design__header {
+                color: rgb(58, 47, 248);
+                font-family: 'Roboto Bold', sans-serif;
+                
+            }
+            .benefits-section__design__title {
+                font: 29px 'Rubik Mono One', sans-serif;
+            }
+            .benefits-section__design__description {
+             
+            }
+            .benefits-section__design__list {
+                list-style-type: none;
+                font: 11px 'Roboto Light', sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 20px;
+                
+                .benefits-section__design__list__item {
+                    background: url(../img/dash.png) 0 5px no-repeat;
+                    padding-left: 40px;
+                    margin-bottom: 35px;
+                     
+                }
+            }
+        }
+        .benefits-section__color {
+            padding-top: 200px;
+            padding-left: 25px;
+            padding-right: 20px;
+ 
+            .benefits-section__color__title {
+                font: 29px 'Rubik Mono One', sans-serif;
+                text-align: right;
+            }
+            .benefits-section__color__description {
+                text-align: end;
+                
+
+            }
+            .benefits-section__color__list {
+                display: flex;
+                justify-content: flex-end;
+                .benefits-section__color__list__item_yellow,
+                .benefits-section__color__list__item_blue,
+                .benefits-section__colorn__list__item_red,
+                .benefits-section__colorn__list__item_grey,
+                .benefits-section__colorn__list__item_black {
+                    font-size: 38px;
+                    cursor: pointer; 
+                    margin: 20px;
+                    width: 0px;
+                }
+                .benefits-section__color__list__item_yellow {
+                    color: yellow;
+                }
+                .benefits-section__color__list__item_blue {
+                    color: blue;
+                }
+                .benefits-section__colorn__list__item_red {
+                    color: red;
+                }
+                .benefits-section__colorn__list__item_grey {
+                    color: grey;
+                }
+                .benefits-section__colorn__list__item_black {
+                    color: black;
+                }
+            }
+            .benefits-section__color_product {
+
+            }
+        }
+    }
+    #modes-section {
+        background: url(./img/main-background.png) no-repeat;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        padding-top: 40px;
+        .modes-section__description {
+            padding-left: 40px;
+            .modes-section__description__title {
+                font: 29px 'Rubik Mono One', sans-serif;
+               
+            }
+            .modes-section__description__text {
+
+            }
+            .modes-section__description__list {
+                list-style-type: none;
+                font: 11px 'Roboto Light', sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 20px;
+                .modes-section__description__list__item {
+                    background: url(../img/dash.png) 0 5px no-repeat;
+                    padding-left: 40px;
+                    margin-bottom: 35px;
+                }
+            }
+            .modes-section__description__speed {
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                font-size: 12px;
+                color: rgb(135, 135, 135);
+               
+                .modes-section__description__speed__items {
+                     padding-right: 40px;
+                     width: unset;
+                     span {
+                         color: blue;
+                         text-align: center;
+                        font-size: 40px;
+                     }
+                   
+                }
+            }
+        }    
+            .modes-section__media__video {
+                width: 100%;
+
+            }
+        
+    }
+    #for-whom-section {
+        padding-top: 40px;
+        .for-whom-section__description {
+            display: flex;
+            flex-direction: row;
+            .for-whom-section__description-text {
+               padding-right: 20px;
+               padding-left: 20px;
+                .for-whom-section__title {
+                    font: 29px 'Rubik Mono One', sans-serif;
+                    text-align: center;
+                }
+                .for-whom-section__text {
+                    text-align: center;
+                    line-height: 1.5;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+            .for-whom-section__media {
+               width: 65%;
+               
+
+            }
+
+        }
+    }
+
+    #footer {
+        background-color: #DCDCDC;
+        color: black;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 9px;
+    }
+}
